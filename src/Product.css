@@ -7,7 +7,7 @@
   padding: 20px;
   width: 100%;
   max-height: 400px;
-  max-width: 1000px;
+  max-width: 250px;
   background-color: rgb(255, 255, 255);
   z-index: 1;
 }
@@ -38,4 +38,7 @@
   background-color: #f0c14b;
   border: 1px solid;
   border-color: #a88734 #9c7e31 #846a29;
+  margin-top:10px;
+  color: #111;
 }
+
