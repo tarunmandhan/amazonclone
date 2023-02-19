@@ -12,13 +12,57 @@ function Home() {
           alt="OOPSS Banner error"
         />
         {/* Product id, title, price, rating, image */}
-        <Product
-          id="12455542"
-          tittle="Lenovo IdeaPad Gaming 3 Intel Core i5 11th Gen 15.6 inch {(39.62cm)} FHD IP"
-          price={35000}
-          rating={5}
-          image="https://m.media-amazon.com/images/I/41bufC9IzpL._AC_SR400,600_.jpg"
-        />
+        <div className="home__row">
+          <Product
+            id="12455542"
+            tittle="Lenovo IdeaPad Gaming 3 Intel Core i5 11th Gen 15.6 inch (39.62cm) FHD IP"
+            price={35000}
+            rating={5}
+            image="https://m.media-amazon.com/images/I/41bufC9IzpL._AC_SR400,600_.jpg"
+          />
+          <Product
+            id="12455542"
+            tittle="Lenovo IdeaPad Gaming 3 Intel Core i5 11th Gen 15.6 inch (39.62cm) FHD IP"
+            price={35000}
+            rating={5}
+            image="https://m.media-amazon.com/images/I/41bufC9IzpL._AC_SR400,600_.jpg"
+          />
+          <Product
+            id="12455542"
+            tittle="Lenovo IdeaPad Gaming 3 Intel Core i5 11th Gen 15.6 inch (39.62cm) FHD IP"
+            price={35000}
+            rating={5}
+            image="https://m.media-amazon.com/images/I/41bufC9IzpL._AC_SR400,600_.jpg"
+          />
+          <Product
+            id="12455542"
+            tittle="Lenovo IdeaPad Gaming 3 Intel Core i5 11th Gen 15.6 inch (39.62cm) FHD IP"
+            price={35000}
+            rating={5}
+            image="https://m.media-amazon.com/images/I/41bufC9IzpL._AC_SR400,600_.jpg"
+          />
+          <Product
+            id="12455542"
+            tittle="Lenovo IdeaPad Gaming 3 Intel Core i5 11th Gen 15.6 inch (39.62cm) FHD IP"
+            price={35000}
+            rating={5}
+            image="https://m.media-amazon.com/images/I/41bufC9IzpL._AC_SR400,600_.jpg"
+          />
+          <Product
+            id="12455542"
+            tittle="Lenovo IdeaPad Gaming 3 Intel Core i5 11th Gen 15.6 inch (39.62cm) FHD IP"
+            price={35000}
+            rating={5}
+            image="https://m.media-amazon.com/images/I/41bufC9IzpL._AC_SR400,600_.jpg"
+          />
+          <Product
+            id="12455542"
+            tittle="Lenovo IdeaPad Gaming 3 Intel Core i5 11th Gen 15.6 inch (39.62cm) FHD IP"
+            price={35000}
+            rating={5}
+            image="https://m.media-amazon.com/images/I/41bufC9IzpL._AC_SR400,600_.jpg"
+          />
+        </div>
         {/* Product */}
       </div>
     </>
