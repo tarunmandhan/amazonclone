@@ -23,7 +23,7 @@ function Home() {
               image="https://m.media-amazon.com/images/I/41O5X+hIaPL._AC_SR160,160_.jpg"
             />
             <Product
-              id="12455542"
+              id="12455544"
               title="pTron Newly Launched Bassbuds Zen in-Ear TWS Earbuds with Quad ENC Mic & TruTalk™, 50Hrs Playtime, BT5.3 Headphones with Mic, Deep Bass, Low Latency, Touch Control, Type-C Fast Charging & IPX4 (Blue)"
               price={1999}
               rating={3}
@@ -32,21 +32,21 @@ function Home() {
           </div>
           <div className="home__row">
             <Product
-              id="12455542"
+              id="12455545"
               title="Instant Pot Air Fryer, Vortex 8 Litre ClearCook Dual Basket, Touch Control Panel, 360° EvenCrisp™ Technology, Uses 95 % less Oil, 6-in-1 Appliance: Air Fry, Roast, Broil, Bake, Reheat, and Dehydrate (Vortex 8 Litre ClearCook)"
               price={16999}
               rating={4}
               image="https://m.media-amazon.com/images/I/81W+9zsvSpL._SX466_.jpg"
             />
             <Product
-              id="12455542"
+              id="12455546"
               title="Gloye Women's Maroon Cotton Flex Kurta with Palazzo.(Size_M)"
               price={949}
               rating={5}
               image="https://m.media-amazon.com/images/I/71ov3CMHY8L._UX679_.jpg"
             />
             <Product
-              id="12455542"
+              id="124555427"
               title="Logitech B170 Wireless Mouse, 2.4 GHz with USB Nano Receiver, Optical Tracking, 12-Months Battery Life, Ambidextrous, PC/Mac/Laptop - Black"
               price={545}
               rating={2}
@@ -55,7 +55,7 @@ function Home() {
           </div>
           <div className="home__row">
             <Product
-              id="12455542"
+              id="12455548"
               title="Flavia Womens Running Shoes"
               price={519}
               rating={5}
