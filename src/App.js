@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Header from "./Header";
 import Home from "./Home";
 import Checkout from "./Checkout";
+import Login from "./Login";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Checkout />
           </Route>
           <Route path="/login">
+            <Login />
             <h1>Login page</h1>
           </Route>
           {/* this is the default route 👇 */}
