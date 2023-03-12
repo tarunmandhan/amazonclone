@@ -3,16 +3,17 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Header from "./Header";
 import Home from "./Home";
-import Checkout from "./Checkout";
 import Login from "./Login";
+import Checkout from "./Checkout";
+// import Signup from "./Signup";
 import { auth } from "./firebase";
-import { useStateValue } from "./StateProvider";
 
+import { useStateValue } from "./StateProvider";
 
 function App() {
   const [{ basket }, dispatch] = useStateValue();
 
-  //useEffect  <<<<<<<<<<<<  POWERFULL
+  //useEffect  <<<<<  POWERFULL
   // Piece of code whihc runs based on a given condition
 
   useEffect(() => {
