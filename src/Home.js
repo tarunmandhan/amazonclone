@@ -9,7 +9,7 @@ function Home() {
         <div className="home__container">
           <img
             className="home__image"
-            src="https://m.media-amazon.com/images/I/71LbHsact9L._SX3000_.jpg"
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/OHL_HMT/Eng/HSS/Header/BXGY/BxGy_1500x450_pc.gif"
             alt="OOPSS Banner error"
           />
 
