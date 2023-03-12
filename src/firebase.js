@@ -1,8 +1,18 @@
-import firebase from "firebase";
+import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
 
-const firebaseApp = firebase.initializeApp({});
+const firebaseConfig = {
+  apiKey: "AIzaSyAGy7nnRCPVvGjqF2vmxAVHAf6_QYbHiJQ",
+  authDomain: "clone-9f782.firebaseapp.com",
+  projectId: "clone-9f782",
+  storageBucket: "clone-9f782.appspot.com",
+  messagingSenderId: "609109216483",
+  appId: "1:609109216483:web:15e141f5f6c4b76e0fc9d6",
+  measurementId: "G-3HH98M09MV",
+};
 
-const db = firebaseApp.firestore();
-const auth = firebase.auth();
+const app = initializeApp(firebaseConfig);
 
-export { db, auth };
+const auth = getAuth();
+
+export { app, auth };
